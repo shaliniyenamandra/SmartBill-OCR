@@ -1,17 +1,28 @@
-# bill_reader_ocr
+# SmartBill OCR
 
-A new Flutter project.
+A Flutter-based OCR application for scanning bill images and extracting important bill details such as vendor name, date, invoice number, tax, and total amount.
 
-## Getting Started
+## Features
+- Capture bill image using camera
+- Upload bill image from device
+- Preview selected bill image
+- Extract bill text using OCR
+- Display extracted bill details
+- Draft-saving flow planned for complex bills
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter
+- Dart
+- Google ML Kit OCR
+- Hive local storage
+- PaddleOCR backend planned
 
-A few resources to get you started if this is your first Flutter project:
+## Project Status
+Under active development.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Future Scope
+- PDF bill scanning
+- Handwritten bill recognition
+- Fake bill detection
+- PaddleOCR backend integration
+- Export extracted bill data
